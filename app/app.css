@@ -1,0 +1,89 @@
+/* app css stylesheet */
+@media print
+{
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+}
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: white;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+
+
+}
+
+.rightText {
+  text-align: right;
+}
+.footer {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+.footer ul li {
+  list-style-type: none;
+  display: inline;
+  color: #aaa;
+}
+
+.initial {
+  width: 10% !important;
+}
+.para {
+  width: 36%;
+}
+.spec {
+  width: 20% !important;
+  text-align: center;
+}
+.result {
+  width: 39%;
+  text-align: right;
+}
+.comments {
+  width: 66%;
+}
+
+.sample-image {
+  width: 36%;
+}
+
+
+div#header img {
+  margin: 20px auto;
+}
+
+#date-quote, #ship_details {
+  margin-right:0px;
+  margin-left:auto;
+}
+
+.quote_body {margin-top:20px; margin-bottom:20px;}
+#quote_expiry tr td {text-align: center;}
+
+.quote_footer {
+  text-align: center;
+}
+.quote_footer ul li {
+  list-style-type: none;
+  display: inline;
+  color: #aaa;
+}
+
+.container {background: #fff;}
+
+.one_half {width: 50%;}
+.one_fourth {width: 25%;}
+.one_eight {width: 12.5%;}
+.one_third {width: 33.33%;}
